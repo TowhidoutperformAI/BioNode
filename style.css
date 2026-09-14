@@ -1,289 +1,861 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+:root {
+  --bg: #063b36;
+  --bg-dark: #05322f;
 
-  <title>BioNode — AIoT BioCNG Micro-Refinery</title>
+  --card: #104943;
+  --card-dark: #0d403c;
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  --lime: #a7ef2d;
 
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
-    rel="stylesheet"
-  >
+  --white: #f4f8f6;
+  --muted: #91a9a5;
 
-  <link rel="stylesheet" href="style.css">
-</head>
+  --border: rgba(116, 184, 166, 0.20);
+}
 
-<body>
 
-  <main class="poster">
+/* =========================
+   RESET
+========================= */
 
-    <!-- TOP BADGE -->
-    <div class="eyebrow">
-      <span>✦</span>
-      BEAR SUMMIT 2026 · CES PAVILION — TOP 10
-    </div>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 
-    <!-- HEADER -->
-    <header class="hero">
+html {
+  scroll-behavior: smooth;
+}
 
-      <h1>
-        <span>Bio</span><b>Node</b>
-      </h1>
 
-      <p class="subtitle">
-        AIoT BioCNG Micro-Refinery
-      </p>
+body {
 
-      <p class="claim">
-        <strong>Water hyacinth in. 200-bar BioCNG out.</strong>
-        Autonomously. At the bus terminal.
-      </p>
+  min-height: 100vh;
 
-      <p class="subclaim">
-        No pipeline. No import. No chemist.
-      </p>
+  background: #171b1a;
 
-    </header>
+  color: var(--white);
 
+  font-family:
+    "Inter",
+    Arial,
+    sans-serif;
+}
 
-    <!-- PROCESS -->
-    <section class="process">
 
-      <div class="process-line"></div>
+/* =========================
+   MAIN POSTER
+========================= */
 
-      <article class="process-card">
+.poster {
 
-        <div class="icon">🌿</div>
+  width: min(100%, 1024px);
 
-        <h2>Hyacinth</h2>
+  min-height: 100vh;
 
-        <small>
-          free feedstock
-        </small>
+  margin: auto;
 
-      </article>
+  padding: 55px 72px 62px;
 
+  overflow: hidden;
 
-      <article class="process-card">
+  position: relative;
 
-        <div class="icon">🦠</div>
+  background:
 
-        <h2>Digest</h2>
+    radial-gradient(
+      700px 360px at 88% -5%,
+      rgba(70, 185, 112, 0.09),
+      transparent 65%
+    ),
 
-        <small>
-          → raw biogas
-        </small>
+    radial-gradient(
+      500px 300px at 0% 100%,
+      rgba(24, 132, 104, 0.07),
+      transparent 70%
+    ),
 
-      </article>
+    linear-gradient(
+      135deg,
+      var(--bg) 0%,
+      #073a35 46%,
+      var(--bg-dark) 100%
+    );
 
+  border-left:
+    1px solid rgba(255,255,255,.14);
 
-      <article class="process-card">
+  border-right:
+    1px solid rgba(255,255,255,.14);
 
-        <div class="icon">🧪</div>
+  box-shadow:
+    0 0 80px rgba(0,0,0,.28);
+}
 
-        <h2>Scrub</h2>
 
-        <small>
-          H₂S &gt;99%
-        </small>
+/* =========================
+   TOP BADGE
+========================= */
 
-      </article>
+.eyebrow {
 
+  width: max-content;
 
-      <article class="process-card">
+  max-width: 100%;
 
-        <div class="icon">⚪</div>
+  padding:
+    10px 29px;
 
-        <h2>Separate</h2>
+  border:
+    1px solid rgba(145,224,76,.40);
 
-        <small>
-          ≥95% CH₄
-        </small>
+  border-radius: 999px;
 
-      </article>
+  background:
+    rgba(61,128,70,.12);
 
+  color:
+    #a6e94c;
 
-      <article class="process-card final">
+  font-size: 13px;
 
-        <div class="icon">⛽</div>
+  font-weight: 800;
 
-        <h2>200 bar</h2>
+  letter-spacing: 2.8px;
+}
 
-        <small>
-          BioCNG out
-        </small>
 
-      </article>
+.eyebrow span {
 
-    </section>
+  font-size: 14px;
 
+  margin-right: 6px;
+}
 
-    <!-- STATISTICS -->
-    <section class="stats">
 
-      <article>
-        <strong>500K+</strong>
+/* =========================
+   HERO
+========================= */
 
-        <span>
-          CNG vehicles in<br>
-          Bangladesh
-        </span>
-      </article>
+.hero {
 
+  margin-top: 29px;
+}
 
-      <article>
-        <strong>95%</strong>
 
-        <span>
-          fuel import dependency
-        </span>
-      </article>
+.hero h1 {
 
+  font-size: 82px;
 
-      <article>
-        <strong>30%+</strong>
+  line-height: .88;
 
-        <span>
-          waterways choked by<br>
-          hyacinth
-        </span>
-      </article>
+  letter-spacing: -5.5px;
 
+  font-weight: 900;
+}
 
-      <article>
-        <strong>−20%</strong>
 
-        <span>
-          fuel cost for drivers
-        </span>
-      </article>
+.hero h1 span {
 
-    </section>
+  color:
+    #f3f7f5;
+}
 
 
-    <!-- FEATURES -->
-    <section class="features">
+.hero h1 b {
 
-      <article>
+  color:
+    var(--lime);
 
-        <h3>
-          <span>🤖</span>
-          Edge-AI autonomy
-        </h3>
+  font-weight: 900;
+}
 
-        <p>
-          24/7 pH, temp &amp; gas control replaces the trained operator.
-        </p>
 
-      </article>
+.subtitle {
 
+  margin-top: 21px;
 
-      <article>
+  color:
+    #dce6e3;
 
-        <h3>
-          <span>🔗</span>
-          Zero supply chain
-        </h3>
+  font-size: 24px;
 
-        <p>
-          Feedstock harvested at the point of use — no pipeline, no import.
-        </p>
+  font-weight: 500;
+}
 
-      </article>
 
+.claim {
 
-      <article>
+  margin-top: 30px;
 
-        <h3>
-          <span>📦</span>
-          One enclosure
-        </h3>
+  max-width: 850px;
 
-        <p>
-          Biomass to 200-bar fuel end-to-end, no off-site step.
-        </p>
+  font-size: 24px;
 
-      </article>
+  line-height: 1.48;
 
+  letter-spacing: -.4px;
+}
 
-      <article>
 
-        <h3>
-          <span>☀️</span>
-          Solar-water symbiosis
-        </h3>
+.claim strong {
 
-        <p>
-          Floating array powers control through load-shedding.
-        </p>
+  color:
+    var(--lime);
 
-      </article>
+  font-weight: 800;
+}
 
-    </section>
 
+.subclaim {
 
-    <!-- REVENUE -->
-    <section class="revenue">
+  margin-top: 14px;
 
-      <h2>
-        Day 1 revenue
-      </h2>
+  color:
+    #8ea7a2;
 
-      <p>
+  font-size: 17px;
+}
 
-        <b>
-          Energy-as-a-Service — BioNode owns, operates &amp; sells.
-        </b>
 
-        <br>
+/* =========================
+   PROCESS
+========================= */
 
-        First take the day a unit switches on,
-        while clearing the canal for free.
+.process {
 
-      </p>
+  position: relative;
 
-    </section>
+  display: grid;
 
+  grid-template-columns:
+    repeat(5, 1fr);
 
-    <!-- FOOTER -->
-    <footer>
+  gap: 34px;
 
-      <div>
+  margin-top: 35px;
+}
 
-        <div class="footer-brand">
-          Bio<span>Node</span> · Silicon River
-        </div>
 
-        <div class="tagline">
-          Built in Bangladesh. Fuel for the World.
-        </div>
+.process-line {
 
-      </div>
+  position: absolute;
 
+  z-index: 0;
 
-      <div class="footer-right">
+  height: 2px;
 
-        <span>
-          merry-pudding-49b37d.netlify.app
-        </span>
+  left: 7%;
 
-        <small>
-          Team BioNode
-        </small>
+  right: 7%;
 
-      </div>
+  top: 50%;
 
-    </footer>
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      #80d73d 10%,
+      #80d73d 90%,
+      transparent
+    );
+}
 
-  </main>
 
+.process-card {
 
-  <script src="script.js"></script>
+  z-index: 1;
 
-</body>
-</html>
+  min-height: 124px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  text-align: center;
+
+  border:
+    1px solid var(--border);
+
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(20,77,71,.97),
+      rgba(13,61,57,.97)
+    );
+
+  box-shadow:
+    inset 0 1px 0
+    rgba(255,255,255,.025);
+
+  transition:
+    .25s ease;
+}
+
+
+.process-card:hover {
+
+  transform:
+    translateY(-4px);
+
+  border-color:
+    rgba(164,239,67,.35);
+}
+
+
+.process-card.final {
+
+  border-color:
+    rgba(137,218,67,.55);
+}
+
+
+.icon {
+
+  font-size: 27px;
+
+  line-height: 1;
+
+  margin-bottom: 11px;
+}
+
+
+.process-card h2 {
+
+  font-size: 16px;
+
+  font-weight: 800;
+}
+
+
+.process-card.final h2 {
+
+  color:
+    var(--lime);
+}
+
+
+.process-card small {
+
+  margin-top: 5px;
+
+  color:
+    #789590;
+
+  font-size: 11px;
+}
+
+
+/* =========================
+   STATISTICS
+========================= */
+
+.stats {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 15px;
+
+  margin-top: 33px;
+}
+
+
+.stats article {
+
+  min-height: 128px;
+
+  padding:
+    21px 10px 16px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+  border-top:
+    4px solid var(--lime);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(17,73,67,.96),
+      rgba(10,57,53,.96)
+    );
+
+  transition:
+    .25s ease;
+}
+
+
+.stats article:hover {
+
+  transform:
+    translateY(-3px);
+}
+
+
+.stats strong {
+
+  color:
+    var(--lime);
+
+  font-size: 32px;
+
+  line-height: 1;
+
+  font-weight: 900;
+
+  letter-spacing: -1px;
+}
+
+
+.stats span {
+
+  margin-top: 13px;
+
+  color:
+    #94aaa6;
+
+  font-size: 12px;
+
+  line-height: 1.45;
+}
+
+
+/* =========================
+   FEATURES
+========================= */
+
+.features {
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, 1fr);
+
+  gap: 16px;
+
+  margin-top: 33px;
+}
+
+
+.features article {
+
+  min-height: 108px;
+
+  padding:
+    19px 22px;
+
+  border-radius: 15px;
+
+  border:
+    1px solid
+    rgba(103,169,153,.09);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(19,73,68,.92),
+      rgba(13,62,58,.92)
+    );
+
+  transition:
+    .25s ease;
+}
+
+
+.features article:hover {
+
+  transform:
+    translateY(-3px);
+
+  border-color:
+    rgba(151,232,69,.23);
+}
+
+
+.features h3 {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  font-size: 18px;
+
+  font-weight: 800;
+}
+
+
+.features h3 span {
+
+  font-size: 18px;
+}
+
+
+.features p {
+
+  margin-top: 8px;
+
+  color:
+    #8ea7a2;
+
+  font-size: 14px;
+
+  line-height: 1.48;
+}
+
+
+/* =========================
+   REVENUE
+========================= */
+
+.revenue {
+
+  min-height: 108px;
+
+  margin-top: 32px;
+
+  padding:
+    22px 31px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 38px;
+
+  border-radius: 17px;
+
+  background:
+    linear-gradient(
+      100deg,
+      #a9f42f,
+      #a2ed2c
+    );
+
+  color:
+    #073c32;
+
+  box-shadow:
+    0 13px 35px rgba(0,0,0,.10),
+    inset 0 1px 0
+    rgba(255,255,255,.30);
+}
+
+
+.revenue h2 {
+
+  white-space: nowrap;
+
+  font-size: 34px;
+
+  font-weight: 900;
+
+  letter-spacing: -1.4px;
+}
+
+
+.revenue p {
+
+  font-size: 14px;
+
+  line-height: 1.5;
+
+  font-weight: 600;
+}
+
+
+.revenue p b {
+
+  font-weight: 800;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+
+  margin-top: 86px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  gap: 25px;
+}
+
+
+.footer-brand {
+
+  font-size: 22px;
+
+  font-weight: 800;
+
+  letter-spacing: -.5px;
+}
+
+
+.footer-brand span {
+
+  color:
+    var(--lime);
+}
+
+
+.tagline {
+
+  display: inline-block;
+
+  margin-top: 12px;
+
+  padding:
+    12px 26px;
+
+  border-radius: 11px;
+
+  background:
+    #f7faf8;
+
+  color:
+    #9bdb70;
+
+  font-size: 12px;
+
+  font-style: italic;
+
+  font-weight: 600;
+}
+
+
+.footer-right {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-end;
+
+  text-align: right;
+
+  color:
+    #829b97;
+
+  font-size: 13px;
+
+  line-height: 1.8;
+}
+
+
+.footer-right small {
+
+  font-size: 13px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 800px) {
+
+  .poster {
+
+    padding:
+      42px 30px 50px;
+  }
+
+
+  .hero h1 {
+
+    font-size:
+      68px;
+  }
+
+
+  .process {
+
+    gap: 12px;
+  }
+
+
+  .revenue {
+
+    gap: 22px;
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 650px) {
+
+  .poster {
+
+    padding:
+      30px 20px 40px;
+  }
+
+
+  .eyebrow {
+
+    font-size: 9px;
+
+    letter-spacing: 1.3px;
+
+    padding:
+      9px 14px;
+  }
+
+
+  .hero h1 {
+
+    font-size:
+      57px;
+
+    letter-spacing:
+      -4px;
+  }
+
+
+  .subtitle {
+
+    font-size:
+      18px;
+  }
+
+
+  .claim {
+
+    font-size:
+      19px;
+  }
+
+
+  .subclaim {
+
+    font-size:
+      15px;
+  }
+
+
+  .process {
+
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .process-line {
+
+    display:
+      none;
+  }
+
+
+  .process-card {
+
+    min-height:
+      91px;
+  }
+
+
+  .stats {
+
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+
+  .features {
+
+    grid-template-columns:
+      1fr;
+  }
+
+
+  .revenue {
+
+    flex-direction:
+      column;
+
+    align-items:
+      flex-start;
+
+    gap:
+      12px;
+  }
+
+
+  .revenue h2 {
+
+    font-size:
+      30px;
+
+    white-space:
+      normal;
+  }
+
+
+  footer {
+
+    flex-direction:
+      column;
+
+    align-items:
+      flex-start;
+
+    margin-top:
+      55px;
+  }
+
+
+  .footer-right {
+
+    align-items:
+      flex-start;
+
+    text-align:
+      left;
+  }
+
+}
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media (max-width: 400px) {
+
+  .stats {
+
+    grid-template-columns:
+      1fr;
+  }
+
+}
