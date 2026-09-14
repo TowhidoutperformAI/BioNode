@@ -1,53 +1,151 @@
-# 🌿 BioNode
+│<div align="center">
+
+### ⚡ BEAR SUMMIT 2026 • CES PAVILION — TOP 10
+## BioNode
 
 ### AIoT BioCNG Micro-Refinery
 
-> **Water hyacinth in. 200-bar BioCNG out.  
-> Autonomously. At the bus terminal.**
+*Water hyacinth in. 200-bar BioCNG out.*  
+*Autonomously. At the bus terminal.*
+**No pipeline. No import. No chemist.**
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-BioNode-a7ef2d?style=for-the-badge)](https://mdtasfiquenoor-dev.github.io/BioNode/)
+<div align="center">
 
+<br>
+
+[![Live Demo • Visit the Project](https://img.shields.io/badge/%20Live%20Demo%20•%20Visit%20the%20Project-BioNode-a7ef2d?style=for-the-badge)](https://mdtasfiquenoor-dev.github.io/BioNode/)
+
+<br><br>
+
+</div>
+<br>
+###  CES 2027
+
+**Selected for the next stage of innovation and technology showcase**
+
+<br>
+</div>
 ---
 
-## 🚀 Live Demo
+#  BioNode
 
-### 🌐 Visit the Project
+## AIoT BioCNG Micro-Refinery
 
-**https://mdtasfiquenoor-dev.github.io/BioNode/**
+BioNode is an **AIoT-powered BioCNG Micro-Refinery** designed to
+transform locally available biomass such as **water hyacinth**
+into compressed biomethane for transportation applications.
 
-BioNode is an AIoT-powered BioCNG micro-refinery concept designed to convert water hyacinth and other biomass into compressed biomethane fuel.
+The concept combines:
 
----
+ **Biomass**
 
-## 💡 About the Project
+→  **Anaerobic Digestion**
 
-BioNode is designed around a simple idea:
+→  **Gas Upgrading**
 
-**Turn waste biomass into locally produced clean fuel.**
+→  **Compression**
 
-The system combines:
-
-- 🌿 Water hyacinth as feedstock
-- 🦠 Anaerobic digestion
-- 🧪 Biogas purification
-- ⚪ Methane separation
-- ⛽ High-pressure BioCNG production
-- 🤖 Edge-AI automation
-- ☀️ Solar-powered control systems
-
-The goal is to create a compact, autonomous micro-refinery that can operate close to the point of fuel consumption.
+→  **BioCNG**
 
 ---
+# 🔄 From Water Hyacinth to BioCNG
 
-## ⚙️ How It Works
+<div align="center">
+
+| 🌿 | ⚙️ | 🧪 | 🔬 | ⛽ |
+|:---:|:---:|:---:|:---:|:---:|
+| **Hyacinth** | **Digest** | **Scrub** | **Separate** | **200 bar** |
+| Biomass | Raw biogas | H₂S removal | CO₂ removal | BioCNG |
+
+</div>
 
 ```text
-🌿 Water Hyacinth
-       ↓
-🦠 Anaerobic Digestion
-       ↓
-🧪 Biogas Scrubbing
-       ↓
-⚪ Methane Separation
-       ↓
-⛽ 200-bar BioCNG
+ Water Hyacinth
+        │
+        ▼
+ Anaerobic Digestion
+        │
+        ▼
+ Raw Biogas
+        │
+        ▼
+ H₂S Scrubbing
+        │
+        ▼
+ CO₂ Separation
+        │
+        ▼
+ Biomethane
+        │
+        ▼
+ High-Pressure Compression
+        │
+        ▼
+ 200-bar BioCNG
+
+
+---
+
+## 📊 Key Impact
+
+<div align="center">
+
+| **500K+** | **95%** | **30%+** | **−20%** |
+|:---:|:---:|:---:|:---:|
+| CNG vehicles in Bangladesh | Fuel import dependency | Waterways choked by hyacinth | Fuel cost for drivers |
+
+</div>
+
+---
+
+## 🤖 What Makes BioNode Different?
+
+<div align="center">
+
+| 🤖 **Edge-AI autonomy** | 🔗 **Zero supply chain** |
+|:---:|:---:|
+| 24/7 pH, temperature & gas control replaces the trained operator. | Feedstock harvested at the point of use — no pipeline, no import. |
+
+<br>
+
+| 📦 **One enclosure** | ☀️ **Solar–water symbiosis** |
+|:---:|:---:|
+| Biomass to 200-bar fuel end-to-end, no off-site step. | Floating array powers control through load-shedding. |
+
+</div>
+
+---
+
+<div align="center">
+
+# 💰 Day 1 revenue
+
+### **Energy-as-a-Service**
+
+**BioNode owns, operates & sells.**
+
+First taka the day a unit switches on,  
+while clearing the canal for free.
+
+</div>
+
+---
+
+<div align="center">
+
+##  BioNode · Silicon River
+
+### *Built in Bangladesh. Fuel for the World.*
+
+**Team BioNode**
+
+</div>
+
+---
+
+
+
+
+
+
+
