@@ -228,15 +228,6 @@ production system for Bangladesh.
 
 
 
-<div align="center">
-
-| 🌿 **Hyacinth** | ➜ | 🦠 **Digest** | ➜ | 🧪 **Scrub** | ➜ | ⚗️ **Separate** | ➜ | ⛽ **200 bar** |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| *Free feedstock* | | *→ Raw biogas* | | *H₂S >99%* | | *≥95% CH₄* | | *BioCNG out* |
-
-</div>
-
-> **🌿 Water Hyacinth → 🦠 Raw Biogas → 🧪 Purified Gas → ⚗️ ≥95% CH₄ → ⛽ 200-bar BioCNG**
 
 
 
@@ -244,25 +235,3 @@ production system for Bangladesh.
 
 
 
-## ⚙️ How BioNode Works
-
-```text
-🌿 Water Hyacinth
-        │
-        ▼
-   🧪 Digestion
-        │
-        ▼
-   💨 Raw Biogas
-        │
-        ▼
-   🧹 H₂S Scrubbing
-        │
-        ▼
-   🔬 Gas Separation
-        │
-        ▼
-   🗜️ Compression
-        │
-        ▼
-⛽ 200-bar BioCNG
