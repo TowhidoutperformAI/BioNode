@@ -52,6 +52,182 @@ production system for Bangladesh.
 
 ## ⚙️ How BioNode Works
 
+<svg width="1400" height="300" viewBox="0 0 1400 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1400" height="300" rx="20" fill="#063F38"/>
+
+  <!-- CARD 1 -->
+  <rect x="40" y="35" width="220" height="230" rx="28"
+        fill="#104D46" stroke="#286B61" stroke-width="3"/>
+
+  <text x="150" y="105"
+        text-anchor="middle"
+        font-size="48">🌿</text>
+
+  <text x="150" y="155"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="700"
+        fill="#FFFFFF">
+    Hyacinth
+  </text>
+
+  <text x="150" y="190"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#A9C9C3">
+    free feedstock
+  </text>
+
+
+  <!-- ARROW 1 -->
+  <text x="285" y="160"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="42"
+        fill="#8FEA32">→</text>
+
+
+  <!-- CARD 2 -->
+  <rect x="310" y="35" width="220" height="230" rx="28"
+        fill="#104D46" stroke="#286B61" stroke-width="3"/>
+
+  <text x="420" y="105"
+        text-anchor="middle"
+        font-size="48">🦠</text>
+
+  <text x="420" y="155"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="700"
+        fill="#FFFFFF">
+    Digest
+  </text>
+
+  <text x="420" y="190"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#A9C9C3">
+    → raw biogas
+  </text>
+
+
+  <!-- ARROW 2 -->
+  <text x="555" y="160"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="42"
+        fill="#8FEA32">→</text>
+
+
+  <!-- CARD 3 -->
+  <rect x="580" y="35" width="220" height="230" rx="28"
+        fill="#104D46" stroke="#286B61" stroke-width="3"/>
+
+  <text x="690" y="105"
+        text-anchor="middle"
+        font-size="48">🧪</text>
+
+  <text x="690" y="155"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="700"
+        fill="#FFFFFF">
+    Scrub
+  </text>
+
+  <text x="690" y="190"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#A9C9C3">
+    H₂S &gt;99%
+  </text>
+
+
+  <!-- ARROW 3 -->
+  <text x="825" y="160"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="42"
+        fill="#8FEA32">→</text>
+
+
+  <!-- CARD 4 -->
+  <rect x="850" y="35" width="220" height="230" rx="28"
+        fill="#104D46" stroke="#286B61" stroke-width="3"/>
+
+  <text x="960" y="105"
+        text-anchor="middle"
+        font-size="48">⚗️</text>
+
+  <text x="960" y="155"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="27"
+        font-weight="700"
+        fill="#FFFFFF">
+    Separate
+  </text>
+
+  <text x="960" y="190"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#A9C9C3">
+    ≥95% CH₄
+  </text>
+
+
+  <!-- ARROW 4 -->
+  <text x="1095" y="160"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="42"
+        fill="#8FEA32">→</text>
+
+
+  <!-- FINAL CARD -->
+  <rect x="1120" y="35" width="240" height="230" rx="28"
+        fill="#145A3B"
+        stroke="#8FEA32"
+        stroke-width="4"/>
+
+  <text x="1240" y="105"
+        text-anchor="middle"
+        font-size="48">⛽</text>
+
+  <text x="1240" y="155"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="29"
+        font-weight="700"
+        fill="#8FEA32">
+    200 bar
+  </text>
+
+  <text x="1240" y="190"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        fill="#A9C9C3">
+    BioCNG out
+  </text>
+
+</svg>
+
+
+
+
+
+
 <div align="center">
 
 | 🌿 **Hyacinth** | ➜ | 🦠 **Digest** | ➜ | 🧪 **Scrub** | ➜ | ⚗️ **Separate** | ➜ | ⛽ **200 bar** |
