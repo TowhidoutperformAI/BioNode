@@ -19,7 +19,7 @@
 
 ---
 
-## 🌿 BioNode
+##  BioNode
 
 ### AIoT BioCNG Micro-Refinery
 
@@ -29,7 +29,7 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 
 ---
 
-## 🔄 From Water Hyacinth to 200-bar BioCNG
+##  From Water Hyacinth to 200-bar BioCNG
 
 <div align="center">
 
@@ -37,7 +37,7 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 <tr>
 
 <td align="center">
-🌿<br>
+<br>
 <b>HYACINTH</b><br>
 <sub>Local feedstock</sub>
 </td>
@@ -45,7 +45,7 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 <td align="center">➡️</td>
 
 <td align="center">
-⚙️<br>
+<br>
 <b>DIGEST</b><br>
 <sub>Raw biogas</sub>
 </td>
@@ -53,7 +53,7 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 <td align="center">➡️</td>
 
 <td align="center">
-🧪<br>
+<br>
 <b>SCRUB</b><br>
 <sub>H₂S removal</sub>
 </td>
@@ -61,7 +61,7 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 <td align="center">➡️</td>
 
 <td align="center">
-🔬<br>
+<br>
 <b>SEPARATE</b><br>
 <sub>≥95% CH₄ target</sub>
 </td>
@@ -69,7 +69,7 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 <td align="center">➡️</td>
 
 <td align="center">
-⛽<br>
+<br>
 <b>200 BAR</b><br>
 <sub>BioCNG output</sub>
 </td>
@@ -84,28 +84,28 @@ The concept combines biomass processing, anaerobic digestion, gas purification, 
 <div align="center">
 
 <strong>
-🌿 Water Hyacinth
+ Water Hyacinth
 ↓
-⚙️ Anaerobic Digestion
+ Anaerobic Digestion
 ↓
-💨 Raw Biogas
+ Raw Biogas
 ↓
-🧪 H₂S Scrubbing
+ H₂S Scrubbing
 ↓
-🔬 CO₂ Separation
+ CO₂ Separation
 ↓
-⛽ Biomethane
+ Biomethane
 ↓
-📈 High-Pressure Compression
+ High-Pressure Compression
 ↓
-🚛 200-bar BioCNG
+ 200-bar BioCNG
 </strong>
 
 </div>
 
 ---
 
-## 📊 Key Impact
+##  Key Impact
 
 <div align="center">
 
@@ -155,7 +155,7 @@ reduction
 
 ---
 
-## 🤖 What Makes BioNode Different?
+##  What Makes BioNode Different?
 
 <div align="center">
 
@@ -164,7 +164,7 @@ reduction
 
 <td align="center" width="50%">
 
-<h2>🤖 Edge-AI Autonomy</h2>
+<h2> Edge-AI Autonomy</h2>
 
 24/7 pH, temperature & gas monitoring<br>
 with automated process control.
@@ -173,7 +173,7 @@ with automated process control.
 
 <td align="center" width="50%">
 
-<h2>🔗 Local Supply Chain</h2>
+<h2> Local Supply Chain</h2>
 
 Feedstock can be harvested near the point of use,<br>
 reducing dependence on long-distance fuel logistics.
@@ -186,7 +186,7 @@ reducing dependence on long-distance fuel logistics.
 
 <td align="center" width="50%">
 
-<h2>📦 Compact System</h2>
+<h2> Compact System</h2>
 
 Biomass processing to compressed BioCNG<br>
 within an integrated micro-refinery concept.
@@ -195,7 +195,7 @@ within an integrated micro-refinery concept.
 
 <td align="center" width="50%">
 
-<h2>☀️ Solar–Water Symbiosis</h2>
+<h2> Solar–Water Symbiosis</h2>
 
 Floating solar infrastructure can support<br>
 auxiliary electrical loads and monitoring systems.
@@ -209,7 +209,7 @@ auxiliary electrical loads and monitoring systems.
 
 ---
 
-## 💰 Business Model
+##  Business Model
 
 <div align="center">
 
@@ -239,56 +239,56 @@ The system creates a potential revenue stream while simultaneously helping remov
 
 ---
 
-## ⚙️ AIoT Control System
+##  AIoT Control System
 
 BioNode is designed around an intelligent monitoring and control layer.
 
 <div align="center">
 
 <strong>
-📡 Sensors
+ Sensors
 ↓
-🧠 Edge Controller
+ Edge Controller
 ↓
-🤖 AI-Based Monitoring
+ AI-Based Monitoring
 ↓
-⚙️ Process Optimization
+ Process Optimization
 ↓
-🔧 Automated Actuation
+ Automated Actuation
 ↓
-⛽ Gas Quality + Pressure Monitoring
+ Gas Quality + Pressure Monitoring
 </strong>
 
 </div>
 
 ### Monitored Parameters
 
-- 🌡️ Temperature
-- 🧪 pH
-- 💨 Biogas composition
-- 🧯 H₂S concentration
-- 🔬 CH₄ concentration
-- 📈 Gas pressure
-- ⚡ Electrical load
-- 💧 Digester conditions
+-  Temperature
+-  pH
+-  Biogas composition
+-  H₂S concentration
+-  CH₄ concentration
+-  Gas pressure
+-  Electrical load
+-  Digester conditions
 
 ---
 
-## 🌍 Potential Impact
+##  Potential Impact
 
 BioNode aims to address multiple challenges through one integrated system:
 
-- 🌿 Water hyacinth management
-- ⛽ Local renewable fuel production
-- 🚛 Reduced dependence on imported fuel
-- ♻️ Waste-to-energy conversion
-- 🤖 Automated energy infrastructure
-- ☀️ Renewable-powered auxiliary systems
-- 💼 Local energy-service opportunities
+-  Water hyacinth management
+-  Local renewable fuel production
+-  Reduced dependence on imported fuel
+-  Waste-to-energy conversion
+-  Automated energy infrastructure
+-  Renewable-powered auxiliary systems
+-  Local energy-service opportunities
 
 ---
 
-## 🚀 Vision
+##  Vision
 
 BioNode is not just a biogas plant.
 
@@ -306,7 +306,7 @@ It is a concept for a **distributed, intelligent, biomass-to-fuel infrastructure
 
 <div align="center">
 
-## 🌿 BioNode · Silicon River
+##  BioNode · Silicon River
 
 ### <i>Built in Bangladesh. Fuel for the World.</i>
 
